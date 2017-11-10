@@ -46,5 +46,5 @@ HAR_DF <- cbind(X_data, Y_data, subject_data)
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 out_tidydata <- HAR_DF %>% group_by(Activity, Subject) %>% summarise_all(mean)
 
-## Write the tidy data out to a 
+## Write the tidy data out to a text file
 write.table(out_tidydata, file = "Out_TidyData.txt", row.name=FALSE)
