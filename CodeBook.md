@@ -2,7 +2,7 @@
 
 ## Data Set
 
-The data set consists in 180 Observations and 68 Variables Gruped by Actitivty Type and Subjects 
+The data set consists in 180 Observations and 68 Variables Gruped by Activity Type and Subjects 
 
 ## Feature List 
 
